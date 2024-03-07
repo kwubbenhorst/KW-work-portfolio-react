@@ -1,0 +1,55 @@
+/* In this global.css file the color and font variables are established which will apply across all the pages. The import of the custom fonts from googlefonts is done here. Margins for the main section and width for the header and footer are established here
+There are also some stylings in index.css, a file given to the project with the installation of vite, which apply globally and which I had to adjust to fit with the custom colour palette. They apply to things like hover and focus effects on links and buttons    */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script:wght@400;700&display=swap');
+
+:root {
+  --light: #cad2c5;
+  --med-light: #84a98c;
+  --medium: #52796f;
+  --med-dark: #354f52;
+  --dark: #2f3e46;
+
+  --font-acme: 'Acme', sans-serif;
+  --font-kaushan: 'Kaushan Script', cursive;
+
+}
+
+body {
+    font-family: var(--font-karla);
+    background-color: var(--light);
+    color: var(--medium);
+    margin: 0;
+}
+
+.main-content {
+    margin: 0 5%;
+}
+
+.main-content-portfolio-page {
+    margin: 0;
+
+}
+
+h1, h2 {
+    font-family: var(--font-kaushan);
+}
+
+h3, p {
+    font-family: var(--font-acme);
+}
+
+a {
+    font-family: var(--font-acme);
+}
+
+.header-container {
+    width: 100vw;
+}
+
+.footer-container {
+    width: 100vw;
+}
+
+
+
+
